@@ -1,0 +1,193 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 3em;
+  width: 5em;
+  opacity: 0;
+}
+
+.narwhale {
+  position: relative;
+}
+
+#rainbow-red {
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1244px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-orange {
+  animation: orange 2s linear forwards;
+  stroke-dasharray: 1367px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-yellow {
+  animation: yellow 2s linear forwards;
+  stroke-dasharray: 1484px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-green {
+  animation: green 2s linear forwards;
+  stroke-dasharray: 1597px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-blue {
+  animation: blue 2s linear forwards;
+  stroke-dasharray: 1706px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-indigo {
+  animation: indigo 2s linear forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-violet {
+  animation: violet 2s linear forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 0;
+}
+
+#narwhal-body {
+  animation: body 1s linear forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 0;
+}
+
+#narwhal-eye {
+  animation: eye 1s linear forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes red {
+
+  0% {
+    stroke-dashoffset: 1244px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes orange {
+
+  0% {
+    stroke-dashoffset: 1367px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes yellow {
+
+  0% {
+    stroke-dashoffset: 1484px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes green {
+
+  0% {
+    stroke-dashoffset: 1597px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes blue {
+
+  0% {
+    stroke-dashoffset: 1706px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes indigo {
+
+  0% {
+    stroke-dashoffset: 1813px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes violet {
+
+  0% {
+    stroke-dashoffset: 1918px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes body {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes eye {
+
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 100;
+    filter: blur(0);
+  }
+
+}
+
+@keyframes text-appear {
+
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 100;
+    filter: blur(0);
+  }
+
+}
